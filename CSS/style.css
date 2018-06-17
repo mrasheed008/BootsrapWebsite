@@ -13,10 +13,23 @@ body{
    -moz-background-size: cover;
    -o-background-size: cover;
     background-size: cover;
+    
+    display: flex;
+    align-items: center;
 }
 .quotes-container{
     
 }
 .features-container{
     
+}
+
+/*Jumbotron*/
+.jumbotron{
+    background-color: transparent;
+}
+.jumbotron h1{
+   color: white;
+   font-weight: bold;
+   margin-bottom: 30px;
 }
