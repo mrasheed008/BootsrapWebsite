@@ -33,3 +33,29 @@ body{
    font-weight: bold;
    margin-bottom: 30px;
 }
+
+.jumbotron .lead{
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Block Dividers*/
+.block-header{
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-header--orange{
+    background-color: #f05f40
+}
+.block-header--short{
+    width: 35px;
+}
+
