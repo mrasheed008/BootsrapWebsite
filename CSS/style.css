@@ -16,6 +16,8 @@ body{
     
     display: flex;
     align-items: center;
+    
+    position: relative;
 }
 .opaque-overlay{
     position: absolute;
@@ -68,3 +70,23 @@ body{
     width: 35px;
 }
 
+/*Buttons*/
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+.btn--red{
+    color: white;
+    background-color: #ff6305;
+    border-color: #ff6305;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus{
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
