@@ -3,9 +3,6 @@ body{
 }
 
 /*Containers*/
-.alert-container{
-    
-}
 .callout-container{
     height: 100vh;
     background: url('../images/whiskey-background.jpg') no-repeat center center fixed; 
@@ -33,6 +30,66 @@ body{
 }
 .features-container{
     
+}
+/*Navbar*/
+.navbar{
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse{
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle{
+    border: 0;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+    color: white;
+}
+.navbar .navbar-brand:hover{
+    color: white;
+}
+
+.navbar-default .navbar-nav a{
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+    
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+.navbar-btn{
+    border:0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #ff6305;
+    color: white;
+}
+.navbar-btn:hover{
+    color: white;
+    background-color: #ff6305;
+    border-color: #ff6305;
 }
 
 /*Jumbotron*/
@@ -90,3 +147,20 @@ body{
     border-color: #df4929;
     color: white;
 }
+
+/*Alerts*/
+.alert-container .col-xs-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+.site-wide-alert{
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+
