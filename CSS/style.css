@@ -162,5 +162,13 @@ body{
     border: 1px solid transparent;
     border-radius: 0;
 }
-
+/*Page Headers*/
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+.page-header h2{
+    margin-top: 0;
+}
 
