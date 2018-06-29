@@ -3,6 +3,13 @@ body{
 }
 
 /*Containers*/
+.container-wrapper{
+    
+}
+.container-wrapper--red{
+    background-color: #f05f40;
+    color: white;
+}
 .callout-container{
     height: 100vh;
     background: url('../images/whiskey-background.jpg') no-repeat center center fixed; 
@@ -13,6 +20,7 @@ body{
     
     display: flex;
     align-items: center;
+    justify-content: center;
     
     position: relative;
 }
@@ -25,11 +33,9 @@ body{
     background-color: rgba(0,0,0,0.5)
     
 }
-.quotes-container{
-    
-}
-.features-container{
-    
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 /*Navbar*/
 .navbar{
@@ -83,13 +89,13 @@ body{
     border:0;
     border-radius: 16px;
     width: 100px;
-    background-color: #ff6305;
+    background-color: #f05f40;
     color: white;
 }
 .navbar-btn:hover{
     color: white;
-    background-color: #ff6305;
-    border-color: #ff6305;
+    background-color: #df4929;
+    border-color: #df4929;
 }
 
 /*Jumbotron*/
@@ -114,19 +120,22 @@ body{
 }
 
 /* Block Dividers*/
-.block-header{
+.block-divider{
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
-.block-header--orange{
+.block-divider--orange{
     background-color: #f05f40
 }
-.block-header--short{
+.block-divider--short{
     width: 35px;
 }
-
+.block-divider--white{
+    background-color: white;
+}
 /*Buttons*/
 .btn--cta{
     font-weight: bold;
@@ -135,8 +144,8 @@ body{
 }
 .btn--red{
     color: white;
-    background-color: #ff6305;
-    border-color: #ff6305;
+    background-color: #f05f40;
+    border-color: #f05f40;
 }
 
 .btn--red:hover,
@@ -171,4 +180,35 @@ body{
 .page-header h2{
     margin-top: 0;
 }
+
+/*Quotes*/
+.quotes .page-header{
+    margin-bottom: 25px;
+}
+blockquote.quote{
+    border-left: 0;
+}
+
+/*Features*/
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature .glyphicon{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+.feature .btn{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+
 
